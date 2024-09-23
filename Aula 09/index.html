@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <script src="java/script.js"></script>
+    <img src="img/download (1).png">
+    <div class="container">
+        
+       
+        <h2>Dados do Cliente</h2>
+        <input type="text" id="nome" placeholder="Digite o nome do cliente">
+        <input type="text" id="placa" placeholder="Placa">
+        <input type="text" id="carro" placeholder="Carro">
+        <input type="number" id="dias" placeholder="Quantos Dias" min="1">
+        <input type="number" id="diaria" placeholder="Valor da diária" min="0.01" step="0.01">
+
+        <input type="button" value="Calcular" onclick="calcular()">
+        <input type="button" value="Limpar" onclick="limpar()">
+        <input type="button" value="Sair" onclick="sair()">
+
+        <div id="resultado"></div>
+    </div>
+
+    
+</body>
+</html>
